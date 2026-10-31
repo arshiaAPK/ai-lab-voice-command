@@ -1,0 +1,11 @@
+# Raw audio is private and can be large
+data/raw/**/*.wav
+data/raw/**/*.WAV
+# Local Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+# Keep generated manifest out of public repository by default; share only if paths/IDs are safe.
+data/processed/manifest.csv
